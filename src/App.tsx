@@ -1,13 +1,11 @@
-import EventExample from "./7. Events/EventExample";
-import ContextApp from "./9. Context/ContextApp";
-import { ThemeProvider } from "./9. Context/ThemeContext";
-import UseContextExample from "./9. Context/UseContextExample";
+import UseRefExample from "./10. UseRef/UseRefExample";
+import ItemList from "./11. Generics/ItemList";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <ContextApp />
+      <ItemList />
     </>
   );
 }
